@@ -1,4 +1,8 @@
 html,body {
+    @apply relative h-full;
+}
+
+body {    
     @apply screen:text-base;
 }
 
