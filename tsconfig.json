@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "target": "ES3",
+        "module": "ESNext",
+        "moduleResolution": "node",
+        "lib": [
+            "DOM",
+            "DOM.Iterable",
+            "ESNext",
+            "WebWorker"
+        ],
+        "downlevelIteration": true,
+        "allowJs": true,
+        "allowSyntheticDefaultImports": true,
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "noEmit": true,
+        "jsx": "react",
+    },
+    "exclude": [
+        "node_modules",
+    ]
+}
